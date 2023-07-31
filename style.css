@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    background-color: white;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    background-color: #090E16;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+}
+.nav-bar{
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 20px;
+    
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.profile{
+    /* margin-top: 120px; */
+    display: flex;
+    justify-content: center;
+}
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.details h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 30px;
+    padding-bottom: 0;
+    /* text-align: center; */
+}
+.details p{
+    padding: 30px;
+    font-size: 20px;
+
+}
+.reach-out{
+    display: flex;
+    height: 60px;
+    width: 90%;
+    margin: 10px 0;
+}
+.cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    font-family: 'Raleway';
+
+}
+.chat{
+    width: 50%;
+    height: 100%;
+    font-size: 20px;
+}
+.chat button{
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway';
+    background-color: transparent;
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.chat button:hover{
+    cursor: pointer;
+    transform: scale(2px);
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.skills-content{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #7B4AE2;
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.skills-content img{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.skills-content h3{
+    padding: 10px;
+}
+.skills-content p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    padding-top: 10px;
+    opacity: 0.8;
+}
+
+.aboutme{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.aboutme *{
+    padding: 10px;
+    
+}
+
+.aboutme h3{
+    border: 2px solid #5938a1 ;
+}
+.aboutme p{
+    padding: 10px;
+    
+}
+
+
+@media(min-width:576px){
+    .skills{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .aboutme{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .aboutme h3{
+        text-align: center;
+        
+    }
+    .aboutme p{
+        text-size-adjust: 20px;
+        line-height: 20px;
+        /* font-size: 24px; */
+    }
+    .reach-out{
+        margin-bottom: 50px;
+    }
+    .nav-bar{
+        width: 100%;
+        background-color: grey;
+        margin-bottom: 20px;
+        
+    }
+    .nav-bar ul{
+        list-style: none;
+        display: flex;
+        gap: 40px;
+    }
+}
