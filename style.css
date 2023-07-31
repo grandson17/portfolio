@@ -138,6 +138,7 @@ body{
 
 .aboutme h3{
     border: 2px solid #5938a1 ;
+    margin-top: 20px;
 }
 .aboutme p{
     padding: 10px;
@@ -145,18 +146,19 @@ body{
 }
 
 
-@media(min-width:576px){
+@media(min-width:425px){
     .skills{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
     .aboutme{
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 60px;
+        margin-right: 60px;
     }
     .aboutme h3{
         text-align: center;
+        
         
     }
     .aboutme p{
