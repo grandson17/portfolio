@@ -127,6 +127,10 @@ body{
     margin-left: 20px;
     margin-right: 20px;
 }
+.aboutme ul li{
+    margin-left: 50px;
+    padding-left: 20px;
+}
 .aboutme *{
     padding: 10px;
     
